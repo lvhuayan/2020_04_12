@@ -16,7 +16,7 @@ class login_success_case(unittest.TestCase):
     def tearDown(self) -> None:
         self.driver.quit()
 
-    def test_add_product_case(self):
+    def test_add_project_case(self):
         '''添加项目'''
         self.driver.find_element_by_id("account").send_keys("admin")
         self.driver.find_element_by_name("password").send_keys("CD123456")
